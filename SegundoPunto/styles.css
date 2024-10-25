@@ -1,0 +1,73 @@
+/* Navbar personalizado */
+.navbar-custom {
+    background-color: #34495e;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ecf0f1 !important;
+}
+.navbar-custom .nav-link:hover {
+    color: #f39c12 !important;
+}
+
+/* Botones personalizados */
+.btn-primary-custom {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+}
+.btn-primary-custom:hover {
+    background-color: #3498db;
+}
+.btn-secondary-custom {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+}
+.btn-secondary-custom:hover {
+    background-color: #c0392b;
+}
+
+/* Tarjeta personalizada */
+.card-custom {
+    border: 1px solid #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-custom .card-header {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+/* Alerta personalizada */
+.alert-custom {
+    background-color: #f1c40f;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Barra de progreso personalizada */
+.progress-custom {
+    height: 30px;
+    background-color: #ecf0f1;
+}
+.progress-custom .progress-bar {
+    background-color: #2ecc71;
+}
+
+/* Tabla personalizada */
+.table-custom {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ecf0f1;
+}
+.table-custom th, .table-custom td {
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+}
+.table-custom th {
+    background-color: #2980b9;
+    color: #fff;
+}
+.table-custom tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

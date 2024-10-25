@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel Personalizado</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Carrusel de Imágenes -->
+    <div id="customCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#customCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#customCarousel" data-slide-to="1"></li>
+            <li data-target="#customCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- Primera Imagen -->
+            <div class="carousel-item active">
+                <img src="images/10-tradiciones-de-japon-que-desconocias.jpg" class="d-block w-100" alt="Primera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Primera Imagen</h5>
+                    <p>Descripción de la primera imagen.</p>
+                </div>
+            </div>
+            <!-- Segunda Imagen -->
+            <div class="carousel-item">
+                <img src="images/index.jpg" class="d-block w-100" alt="Segunda Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Segunda Imagen</h5>
+                    <p>Descripción de la segunda imagen.</p>
+                </div>
+            </div>
+            <!-- Tercera Imagen -->
+            <div class="carousel-item">
+                <img src="images/WheretoFindJess_Japan_11-1140x776.jpg" class="d-block w-100" alt="Tercera Imagen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tercera Imagen</h5>
+                    <p>Descripción de la tercera imagen.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Controles -->
+        <a class="carousel-control-prev" href="#customCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#customCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Bootstrap y Scripts necesarios -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
